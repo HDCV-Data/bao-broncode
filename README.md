@@ -42,6 +42,13 @@ De profielen geven een beeld van hoe soortgelijke visumaanvragen uit het verlede
 3) Voor alle overgebleven groepen wordt er getoetst of de groep voldoet aan de minimale hit- en weigeringspercentages voor een kans- of risicoprofiel. De groepen die hier niet aan voldoen worden een ‘inbetween’ profiel. Dit is een profiel die een neutrale waarde bevat.
 4) Ten slotte wordt de boom gesnoeid. Dit houdt in dat alle uiterste inbetween profielen -de inbetween profielen die zich aan het uiteinde van de boom bevinden, en niet verder vertakken naar een volgend profiel-, worden verwijderd. Daarnaast worden alle profielen verwijderd die vertakken uit een profiel van hetzelfde type (kans/risico/inbetween). Wanneer een profiel wordt verwijderd worden de aanvragen in dat profiel opgenomen in het bovenliggende profiel.
 
+Voor verdere informatie zie het algoritmeregister:
+https://algoritmes.overheid.nl/nl/algoritme/mnre1013/94596537/informatie-ondersteund-beslissen-kort-verblijf-schengen-visum-kvv#werking
+
+En de factsheet: 
+https://www.nederlandwereldwijd.nl/binaries/content/assets/pdfs-nederlands/factsheet-informatie-ondersteunend-beslissen-032025.pdf
+
+
 ### Disclaimer
 De code is bedoeld ter transparantie en educatie, niet voor operationeel gebruik. Er wordt geen ondersteuning verleend bij hergebruik buiten de context van deze publicatie. Zie voor meer info de EUPL licentie .
 De code is werkzaam wanneer de waardes die ‘redacted’ zijn worden ingevuld. Er is echter geen (sample-) dataset bij de code gevoegd. Het toevoegen van onze actuele visumaanvraagdataset is niet mogelijk omdat dit gevoelige persoonsgegevens bevat. Daarnaast is het toevoegen van een sample-dataset niet mogelijk omdat er hiervoor keuzes gemaakt dienen te worden met betrekking tot de verdelingen van de kenmerken. Deze keuzes hebben een directe causale relatie met de output van het algoritme, wat voor verwarring kunnen zorgen.
