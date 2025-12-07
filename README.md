@@ -21,7 +21,7 @@ De output van de beslisboom wordt getoond aan BZ-medewerkers die zijn opgeleid o
 De beslisboom ontvangt als input een dataset bestaande uit de historische visumaanvragen van de afgelopen vijf jaar. 
 De datagedreven profielen in de BAO worden bepaald op basis van de volgende bronnen:
 1. Visumaanvragen van de afgelopen 5 jaar; en
-2. Ketenpartner hits na datum van aanvraag (bijvoorbeeld hoeveel weigeringen bij de KMar zijn er geweest binnen de groep visumaanvragen?).
+2. Ketenpartner hits na datum van aanvraag (bijvoorbeeld hoeveel weigeringen bij de KMar er zijn geweest binnen de groep visumaanvragen).
 Input voor de datagedreven profielen komt volledig geautomatiseerd vanuit onze data science omgeving en maandelijks geüpload naar de BAO portal. Dit betreft geaggregeerde data, die niet tot individuele personen te herleiden is, en enkel wordt toegepast voor het aanmaken van de profielen. Hierbij worden een aantal kenmerken van de visumaanvrager op volgorde meegenomen. Het beheer van deze data is belegd bij het verantwoordelijke BZ-data team. Dit proces wordt op termijn op wekelijkse basis uitgevoerd. 
 
 ### Output
